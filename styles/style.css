@@ -28,8 +28,6 @@ body {
 }
 .sidebar{
     width: 250px;
-    border: 1px solid #467DF2;
-    border-left: 0;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -37,13 +35,16 @@ body {
     box-sizing: border-box;
     background: #F7F7F7;
     flex-shrink: 0;
+    border: 1px;
+
+
 
 }
 .sidebar-top{
 
 }
 .logo{
-  padding: 25px 0 27px 0;
+  margin: 25px 0 27px 0;
     text-align: center;
 }
 .sidebar-menu{
@@ -94,6 +95,9 @@ body {
     padding: 13px 12px;
     background: #F7F7F7;
     border-radius: 5px;
+    border: 1px solid #F7F7F7;
+    box-sizing: border-box;
+
 
 }
 .sidebar-bottom-image{
@@ -125,7 +129,7 @@ body {
 .header-left{
     display: flex;
     align-items: center;
-    padding-left: 40px;
+    margin-left: 40px;
 }
 .header-left-image img{
     height: 22px;
@@ -142,7 +146,7 @@ body {
 
 }
 .header-menu-item a{
-    padding: 0 20px;
+    margin: 0 20px;
     display: flex;
     align-items: center;
     font-size: 14px;
@@ -364,7 +368,7 @@ bottom: 5px;
     align-items: center;
     position: fixed;
     top: 400px;
-    right: -73px;
+    right: -75px;
     cursor: pointer;
     z-index: 99;
     border: 0;
